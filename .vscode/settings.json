@@ -1,0 +1,19 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "window.zoomLevel": 0,
+  "files.trimTrailingWhitespace": true,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true
+  },
+  "editor.formatOnSave": true,
+  "prettier.tslintIntegration": true,
+  "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": true,
+  "editor.rulers": [80, 120],
+  "prettier.proseWrap": "always",
+  "files.associations": {
+    "*.json": "jsonc"
+  }
+}
