@@ -1,0 +1,34 @@
+{
+  "name": "ts-project-template",
+  "version": "0.0.1",
+  "description": "TypeScript Project Template",
+  "keywords": [
+    "typescript",
+    "template"
+  ],
+  "author": "Pierre Voisin <pierre.voisin@gmail.com>",
+  "lisence": "ISC",
+  "main": "distribution/index.js",
+  "files": [
+    "/distribution"
+  ],
+  "scripts": {
+    "test": "mocha --require ts-node/register -u bdd --recursive --colors **/*.test.ts",
+    "compile": "tsc"
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^11.13.8",
+    "mocha": "^6.1.4",
+    "prettier": "^1.17.0",
+    "ts-node": "^8.1.0",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {},
+  "prettier": {
+    "printWidth": 120,
+    "trailingComma": "es5",
+    "arrowParens": "always"
+  }
+}
